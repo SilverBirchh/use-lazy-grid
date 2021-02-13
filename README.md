@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/use-lazy-grid.svg)](https://www.npmjs.com/package/use-lazy-grid) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+Take a long list of flex or grid items and lazy load them in to the DOM with ease.
+
 ## Install
 
 ```bash
