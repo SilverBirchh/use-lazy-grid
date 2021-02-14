@@ -12,6 +12,40 @@ Take a long list of flex or grid items and lazy load them in to the DOM with eas
 npm install --save use-lazy-grid
 ```
 
+## API
+
+#### useLazyGrid
+
+```
+const visibleItems = useLazyGrid({
+    size,
+    gridRef,
+    estimateSize,
+    overscan,
+})
+```
+
+##### Options
+
+- `size: number`
+
+  - Required
+  - The total count of elements
+
+- `gridRef: React.useRef(DOMElement)`
+
+  - Required
+  - The parent grid element
+
+- `estimateSize: number`
+
+  - Required
+  - The estime height in px of the grid elements
+
+- `overscan: number`
+  - Defaults to 5
+  - The number of row to ahead of the current window range
+
 ## Usage
 
 ```tsx
